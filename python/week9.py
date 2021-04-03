@@ -62,4 +62,15 @@ def a():
     print(10)
     return 5
 
-print(a())
+# print(a())
+
+def dojoWay():
+    for i in range(1, 101):
+        if i % 10 == 0: # if true follow my instructions if false move on
+            print("Coding Dojo")
+        elif i % 5 == 0: # if true follow my instructions if false move on
+            print("Coding")
+        else: # if all else fails just follow me
+            print(i)
+
+dojoWay()
